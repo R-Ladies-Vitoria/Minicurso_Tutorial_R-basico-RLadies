@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590015700264.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "800507186",
+    "id" : "ADB7FFAF",
+    "lastKnownWriteTime" : 1573586556,
+    "last_content_update" : 1573586556,
+    "path" : "C:/Users/agath/Google Drive/rladies_vitoria1/Minicursos_1WDSSL_github/minicurso1.Rmd",
+    "project_path" : "minicurso1.Rmd",
+    "properties" : {
+        "cursorPosition" : "57,0",
+        "scrollLine" : "51"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
