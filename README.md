@@ -4,7 +4,7 @@ Curso introdutório de ministrado pelo R-Ladies Vitória.
 
 # Material do Curso
 
-Este repositório contém os slides usados no curso. O material foi desenvolvido por Agatha Rodrigues, Ornella Scardua, Beatriz Lima, Iane Martins e Mariana Costa.
+Este repositório contém os slides usados no curso. O material foi desenvolvido por Agatha Rodrigues, Beatriz Lima, Iane Martins e Mariana Costa.
 
 ## Programação
 
