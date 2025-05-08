@@ -481,21 +481,6 @@ v2 <- c(25,10,15,4)
 x3 <- cbind(x,v2); x3
 ```
 
-
-
----
-class: middle
-
-Operações matriciais
-```{r, eval=TRUE,include=TRUE,echo=TRUE,error=TRUE}
-xa <- x2[1:2,1:2]
-xb <- matrix(rnorm(4),2,2)
-xa*xb #multiplicacao ponto a ponto
-xa%*%xb #multiplicacao matricial
-solve(xa) #inversa de xa
-diag(xa) #matriz diagonal
-```
-
 ---
 class: middle
 
@@ -532,7 +517,7 @@ dados
 ---
 class: middle
 
-Funcoes uteis para data.frame:
+Funcoes úteis para data.frame:
 
 * head() - Mostra as primeiras 6 linhas.
 
@@ -744,16 +729,6 @@ knitr::include_graphics("figures/help_R.png")
 * Comunidade.
 
 [Stack Overflow](https://stackoverflow.com/) e o [Stack Overflow em Português](https://pt.stackoverflow.com/). 
-
-
----
-
-## Adicionando GIFS
-
-```{r gif, echo=TRUE ,fig.align ='center',out.width = '50%'}
-knitr::include_graphics("https://media2.giphy.com/media/S857VNxM6HwlZuYXrU/giphy.gif")
-```
-
 
 ---
 class: middle

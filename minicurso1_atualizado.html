@@ -563,32 +563,6 @@ x3 &lt;- cbind(x,v2); x3
   #&gt; [4,]  4  8 12 16  4
 ```
 
-
-
----
-class: middle
-
-Operações matriciais
-
-``` r
-xa &lt;- x2[1:2,1:2]
-xb &lt;- matrix(rnorm(4),2,2)
-xa*xb #multiplicacao ponto a ponto
-  #&gt;       [,1]     [,2]
-  #&gt;  28.007653 4.132286
-  #&gt;  -2.336333 1.735377
-xa%*%xb #multiplicacao matricial
-  #&gt;      [,1]     [,2]
-  #&gt;  10.48515 7.919757
-  #&gt;  -2.70013 2.286348
-solve(xa) #inversa de xa
-  #&gt;                            
-  #&gt; [1,]  0.12500000 -0.3125000
-  #&gt; [2,] -0.04166667  0.2708333
-diag(xa) #matriz diagonal
-  #&gt; [1] 13  6
-```
-
 ---
 class: middle
 
@@ -643,7 +617,7 @@ dados
 ---
 class: middle
 
-Funcoes uteis para data.frame:
+Funcoes úteis para data.frame:
 
 * head() - Mostra as primeiras 6 linhas.
 
@@ -718,17 +692,17 @@ dim3 &lt;- array(rnorm(18),dim = c(3,3,2))
 dim3
   #&gt; , , 1
   #&gt; 
-  #&gt;            [,1]        [,2]        [,3]
-  #&gt; [1,] -1.0817561 -0.23686690 -0.06207175
-  #&gt; [2,]  0.6104766 -1.70855539  1.47852187
-  #&gt; [3,]  3.3025216  0.03437626 -1.72307883
+  #&gt;            [,1]      [,2]       [,3]
+  #&gt; [1,] -0.5910872 1.0817552 -1.5513754
+  #&gt; [2,]  2.3949963 0.8475616 -1.1891061
+  #&gt; [3,] -0.3406583 1.5054489  0.8031716
   #&gt; 
   #&gt; , , 2
   #&gt; 
   #&gt;            [,1]       [,2]       [,3]
-  #&gt; [1,] -1.1386386  1.4036618 -1.2201141
-  #&gt; [2,]  0.8306698 -0.1677594 -1.1139547
-  #&gt; [3,]  0.8545911 -0.4235186 -0.3276631
+  #&gt; [1,] -1.0296674 -2.5745617 -0.4326867
+  #&gt; [2,]  0.2950988  0.4576464  0.5384773
+  #&gt; [3,]  1.3086166  1.2533934  0.4905977
 ```
 
 ---
@@ -750,16 +724,16 @@ ls &lt;- list(ls1 = 'a',ls2 = c(1,2,3),ls3 = array(rnorm(6),dim = c(3,1,2,1))); 
   #&gt; , , 1, 1
   #&gt; 
   #&gt;           [,1]
-  #&gt; [1,] 1.6418229
-  #&gt; [2,] 0.5274423
-  #&gt; [3,] 0.6157080
+  #&gt; [1,] -1.762364
+  #&gt; [2,]  2.010942
+  #&gt; [3,]  2.098920
   #&gt; 
   #&gt; , , 2, 1
   #&gt; 
   #&gt;            [,1]
-  #&gt; [1,] -0.9951704
-  #&gt; [2,] -0.2112835
-  #&gt; [3,]  0.3478346
+  #&gt; [1,]  3.0895665
+  #&gt; [2,] -1.7136531
+  #&gt; [3,]  0.8275697
 ```
 ]
 ---
@@ -931,19 +905,6 @@ help(mean) #ou
 * Comunidade.
 
 [Stack Overflow](https://stackoverflow.com/) e o [Stack Overflow em Português](https://pt.stackoverflow.com/). 
-
-
----
-
-## Adicionando GIFS
-
-
-``` r
-knitr::include_graphics("https://media2.giphy.com/media/S857VNxM6HwlZuYXrU/giphy.gif")
-```
-
-&lt;img src="https://media2.giphy.com/media/S857VNxM6HwlZuYXrU/giphy.gif" width="50%" style="display: block; margin: auto;" /&gt;
-
 
 ---
 class: middle

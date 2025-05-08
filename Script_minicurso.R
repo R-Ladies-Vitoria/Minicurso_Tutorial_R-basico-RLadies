@@ -120,23 +120,6 @@ v2 <- c(25,10,15,4)
 x3 <- cbind(x,v2)
 x3
 
-## Operações matriciais
-
-xa <- x2[1:2,1:2]
-
-xb <- matrix(rnorm(4),2,2)
-
-xa*xb #multiplicacao ponto a ponto
-
-xa%*%xb #multiplicacao matricial
-
-solve(xa) #inversa de xa
-
-diag(xa) #diagnonal de xa
-
-
-
-
 ### Data frame
 
 ID <- seq(1:6)
@@ -315,7 +298,7 @@ tabyl(dados1,cor_branco)
 
 dados1$cor_branco <- ifelse(dados1$id==9,1,dados1$cor_branco)
 
-# No R tem um pacote só para manipular fatores: o forcats (for categorial variables).
+1# No R tem um pacote só para manipular fatores: o forcats (for categorial variables).
 # Basicamente, o forcats é composto por funções de apenas dois tipos: funções que começam com fct_, que recebem uma lista de fatores e devolvem um fator e funções que começam com lvl_, que modificam os níveis de um fator.
   # Primeiro, precisamos informar o R que a variável é fator, com o comando as.factor(.).
 library(forcats)
